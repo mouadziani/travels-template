@@ -1,0 +1,82 @@
+* {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.top-navbar {
+    padding: 5px 0px;
+    position: relative;
+    height: 130px;
+}
+
+.top-navbar .contact-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: rgba(46, 45, 45, 255);
+	text-align: left !important;
+}
+
+.top-navbar .phone-text {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	text-align: left !important;
+	color: #259f58;
+}
+
+.top-navbar .contact-buttons .btn {
+	margin-left: 30px; 
+	font-size: 13px;
+	font-weight: 400; 
+	border-radius: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.bottom-navbar {
+	background: #259f58 !important;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.bottom-navbar .navbar-nav .nav-link {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 15px;	
+	color: #fff !important;
+}
+
+.bottom-navbar .form-search {
+	max-width: 270px;
+    width: 100%;
+}
+
+.bottom-navbar .form-search .input-group {
+    width: 100%;
+}
+
+.bottom-navbar .form-control {
+	color: #fff !important;
+	border-radius: 6px;
+	font-size: 15px;
+	color: #000 !important;
+}
+
+.bottom-navbar .form-search .btn {
+	background: #fff;
+	color: #259f58;
+	font-size: 15px;
+	border-radius: 0px 6px 6px 0px;
+	border: none;
+}
+
+/* Override bs 4 classes */
+.btn-outline-success {
+	color: #000;
+}
+
+.btn:focus, .btn:active,
+input:focus, input:active,
+.form-control:focus, .form-control:active {
+   outline: none !important;
+   box-shadow: none;
+}
