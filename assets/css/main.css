@@ -74,6 +74,15 @@
 	color: #000;
 }
 
+.btn-outline-success:hover {
+	color: #fff;
+	background: #259f58;
+}
+
+.btn-success {
+	background: #259f58;
+}
+
 .btn:focus, .btn:active,
 input:focus, input:active,
 .form-control:focus, .form-control:active {
