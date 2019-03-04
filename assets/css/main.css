@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', 'font-awesom', sans-serif;
 }
 /* Begin Header */
 .top-navbar {
@@ -55,10 +55,10 @@
 }
 
 .bottom-navbar .form-control {
-	color: #fff !important;
-	border-radius: 6px;
-	font-size: 15px;
 	color: #000 !important;
+	font-size: 14px;
+	border-radius: 10px;
+	border-color: #afafaf;
 }
 
 .bottom-navbar .form-search .btn {
@@ -88,7 +88,7 @@
 }
 
 .cover .serach-form .tab-content>.tab-pane {
-	padding: 13px;
+	padding: 10px 30px 15px;
 	border-radius: 10px !important;
 	background: #fff;
 }
@@ -103,18 +103,102 @@
     background: #fff;
     border-radius: 10px 10px 0px 0px;
     margin-left: 9px;
+}
+
+.cover .serach-form .nav-tabs .nav-link:hover,
+.cover .serach-form .nav-tabs .nav-link {
+	text-transform: uppercase;
     font-size: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
-}
-
-.cover .serach-form .nav-tabs .nav-link:hover {
     border: 0px !important;
+    font-weight: 500;
+    color: #259f58;
+    box-shadow: inset 0px -2px 3px 0px rgba(0, 0, 0, .3);
 }
 
 .cover .serach-form .tab-content>.tab-pane .nav-tabs {
 	background: transparent;
+    border-bottom: 1px solid transparent;
 }
+.cover .serach-form .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #92c352;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cover .serach-form .form-group label {
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.cover .serach-form .form-group .form-control {
+	font-size: 14px;
+	border-radius: 10px;
+	border-color: #afafaf;
+}
+
+.main .description {
+	padding-top: 70px;
+	padding-bottom: 55px;
+}
+
+.main .description h1 {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.main .description p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.main .carousel-card {
+	max-width: 330px;
+	height: 278px;
+	position: relative;
+}
+
+.main .carousel-card .card-carousel-image {
+	max-width: 100%;
+	height: 100%;
+}
+
+.main .carousel-card .carousel-card-description {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    padding: 8px 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.main .carousel-card .carousel-card-description .price {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.main .carousel-card .carousel-card-description .title {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.main .carousel-card .carousel-card-description .btn {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+
+
 /* End cover */
 /* Override bs 4 classes */
 .btn-outline-success {
@@ -130,9 +214,34 @@
 	background: #259f58;
 }
 
+.btn-success-light {
+	background: #92c352;
+}
+
 .btn:focus, .btn:active,
 input:focus, input:active,
 .form-control:focus, .form-control:active {
    outline: none !important;
    box-shadow: none;
 }
+
+.ui-datepicker {
+	font-size: 13px !important;
+    font-weight: 400 !important;
+}
+/* Begin Helpers */
+.pr-30 {
+	padding-right: 30px;
+}
+
+.pl-30 {
+	padding-left: 30px;
+}
+
+.border-left {
+	border-left: 1px solid #b3b3b3;
+}
+
+
+
+/* End Helpers */

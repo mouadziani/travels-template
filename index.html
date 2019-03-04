@@ -4,10 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.8.18/themes/smoothness/jquery-ui.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:700i|Roboto:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i|Roboto|Roboto+Mono:300|Roboto:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
@@ -92,7 +94,7 @@
 							<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Vols</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">hôtels</a>
+							<a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">hôtels</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Voiturest</a>
@@ -102,12 +104,50 @@
 						</li>
 					</ul>
 					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
 							<div class="row">
-								<div class="col-md-2">
+								<div class="col-md-3">
 									<div class="form-group">
 										<label for="">Destination:</label>
 										<input type="text" class="form-control" placeholder="Pays, Ville">
+									</div>
+								</div>
+								<div class="col-md-4 pr-30">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="">Check in</label>
+												<input type="text" class="form-control datepicker" placeholder="jj/mm/aaaa">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="">Check out</label>
+												<input type="text" class="form-control datepicker" placeholder="jj/mm/aaaa">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5 pl-30 border-left">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="form-group">
+												<label for="">Adultes</label>
+												<input type="number" class="form-control" placeholder="00">
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="form-group">
+												<label for="">Enfants</label>
+												<input type="number" class="form-control" placeholder="00">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label style="color: #fff">.</label>
+												<button class="btn btn-success btn-success-light form-control">Chercher &nbsp; <i class="fa fa-search"></i></button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -116,14 +156,76 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="main container">
+			<div class="description">
+				<h1 class="text-uppercase text-center">Top destination</h1>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod unt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="owl-carousel">
+				<div class="carousel-card">
+					<img src="./assets/img/carousel-1.png" class="card-carousel-image">
+					<div class="carousel-card-description">
+						<span class="title">3 Nuits + Vol + Hôtel*4</span>
+						<div class="row">
+							<div class="col-md-6 price">000$</div>							
+							<div class="col-md-6">
+								<a href="#" class="btn btn-success btn-success-light float-right">Details</a>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-card">
+					<img src="./assets/img/carousel-2.png" class="card-carousel-image">
+					<div class="carousel-card-description">
+						<span class="title">3 Nuits + Vol + Hôtel*4</span>
+						<div class="row">
+							<div class="col-md-6 price">000$</div>							
+							<div class="col-md-6">
+								<a href="#" class="btn btn-success btn-success-light float-right">Details</a>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-card">
+					<img src="./assets/img/carousel-3.png" class="card-carousel-image">
+					<div class="carousel-card-description">
+						<span class="title">3 Nuits + Vol + Hôtel*4</span>
+						<div class="row">
+							<div class="col-md-6 price">000$</div>							
+							<div class="col-md-6">
+								<a href="#" class="btn btn-success btn-success-light float-right">Details</a>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="carousel-card">
+					<img src="./assets/img/carousel-1.png" class="card-carousel-image">
+					<div class="carousel-card-description">
+						<span class="title">3 Nuits + Vol + Hôtel*4</span>
+						<div class="row">
+							<div class="col-md-6 price">000$</div>							
+							<div class="col-md-6">
+								<a href="#" class="btn btn-success btn-success-light float-right">Details</a>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+			</div>
+		</section>
 	</div>
 	
 	<!-- jQuery library -->
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
 	<!-- Popper JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="./assets/js/owl.carousel.min.js"></script>
+	<script src="./assets/js/app.js"></script>
 </body>
 </html>
