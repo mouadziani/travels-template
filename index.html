@@ -4,87 +4,123 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:700i|Roboto:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-	<div style="background: #fff">
-		<div class="container-fluid">
-			<div class="top-navbar">
-				<div class="row align-items-center">
-					<div class="col-md-4 d-flex justify-content-center align-items-center">
-						<div>
-							<span class="text-uppercase contact-text">contactez-nous</span>
-							<br>
-							<span class="phone-text">(+212) 000 00 00</span>
+	<div style="background: #fff; height: 2000px;">
+		<header>
+			<div class="container-fluid">
+				<div class="top-navbar">
+					<div class="row align-items-center">
+						<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<div>
+								<span class="text-uppercase contact-text">contactez-nous</span>
+								<br>
+								<span class="phone-text">(+212) 000 00 00</span>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3 text-center">
-						<span class="logo">
-							<img src="./assets/img/logo.png" alt="">
-						</span>
-					</div>
-					<div class="col-md-5 d-flex justify-content-center align-items-center contact-buttons">	
-						<a href="#" class="btn btn-outline-success">Ajouter votre Société</a>
-						<a href="#" class="btn btn-success">S'inscrire</a>
-						<a href="#" class="btn btn-success">Se connecter</a>
+						<div class="col-md-3 text-center">
+							<span class="logo">
+								<img src="./assets/img/logo.png" alt="">
+							</span>
+						</div>
+						<div class="col-md-5 d-flex justify-content-center align-items-center contact-buttons">	
+							<a href="#" class="btn btn-outline-success">Ajouter votre Société</a>
+							<a href="#" class="btn btn-success">S'inscrire</a>
+							<a href="#" class="btn btn-success">Se connecter</a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid bottom-navbar">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Hôtels</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Vacances</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Vols</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Croisière</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Location de voiture</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Hôtels</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Offres</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Médicals</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Humanitaires</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0 form-search">
-					<div class="input-group">
-						<input type="text" class="form-control">
-						<div class="input-group-append">
-							<button class="btn" type="button">
-								<i class="fa fa-search"></i>
-							</button>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid bottom-navbar">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Hôtels</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vacances</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Vols</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Croisière</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Location de voiture</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Hôtels</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Offres</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Médicals</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Humanitaires</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0 form-search">
+						<div class="input-group">
+							<input type="text" class="form-control">
+							<div class="input-group-append">
+								<button class="btn" type="button">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+					</form>
+				</div>
+			</nav>
+		</header>
+		<section class="cover">
+			<div class="container">
+				<div class="serach-form">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Vols</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">hôtels</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Voiturest</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">croisière</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row">
+								<div class="col-md-2">
+									<div class="form-group">
+										<label for="">Destination:</label>
+										<input type="text" class="form-control" placeholder="Pays, Ville">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-				</form>
+				</div>
 			</div>
-		</nav>
+		</section>
 	</div>
 	
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<!-- Popper JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<!-- Latest compiled JavaScript -->

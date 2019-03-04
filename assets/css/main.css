@@ -1,7 +1,7 @@
 * {
 	font-family: 'Roboto', sans-serif !important;
 }
-
+/* Begin Header */
 .top-navbar {
     padding: 5px 0px;
     position: relative;
@@ -68,7 +68,54 @@
 	border-radius: 0px 6px 6px 0px;
 	border: none;
 }
+/* End Header */
 
+/* Begin cover */
+.cover {    
+	background-image: url('./../img/cover.png');
+	background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 425px;
+    height: 600px;
+}
+
+.cover .serach-form {
+	width: 100%;
+}
+
+.cover .serach-form .form-group {
+	margin-bottom: 0px !important;
+}
+
+.cover .serach-form .tab-content>.tab-pane {
+	padding: 13px;
+	border-radius: 10px !important;
+	background: #fff;
+}
+
+.cover .serach-form .tab-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.cover .serach-form .nav-tabs .nav-item {
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 9px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cover .serach-form .nav-tabs .nav-link:hover {
+    border: 0px !important;
+}
+
+.cover .serach-form .tab-content>.tab-pane .nav-tabs {
+	background: transparent;
+}
+/* End cover */
 /* Override bs 4 classes */
 .btn-outline-success {
 	color: #000;
