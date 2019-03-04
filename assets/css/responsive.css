@@ -1,0 +1,114 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .phone-text {
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	header .navbar {
+        margin-top: 145px;
+    }
+    header .bottom-navbar {
+    	padding: 0px;
+    }
+	header .navbar-dark .navbar-toggler {
+		margin: 15px;
+	}
+	header .bottom-navbar .nav-item {
+		border-top: 1px solid #fbfbfb;
+	} 
+
+	header .bottom-navbar .form-search {
+	    max-width: 100%;
+	    width: 100%;
+	    padding: 8px 20px 0px;
+	    border-top: border-top: 1px solid #fbfbfb;
+	    border-top: 1px solid #fbfbfb;
+	    margin-top: 0px !important;
+	}
+
+	.cover .serach-form .nav-tabs .nav-link:hover, 
+	.cover .serach-form .nav-tabs .nav-link,
+	.cover .serach-form .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+		text-transform: none; 
+	    font-size: 12px;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	    font-weight: 400;
+	    padding-left: 8px;
+	    padding-right: 8px;
+	}
+	.cover .serach-form .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	    color: #fff !important;
+	    background-color: #92c352;
+	    border-radius: 10px 10px 0px 0px;
+	}
+	.cover {
+	    padding-top: 100px;
+	}
+
+	.cards-with-image .card .card-footer .row p {
+	    text-align: center !important;
+	    margin-bottom: 14px;
+	}
+	
+	.widget-left {
+		margin-top: 15px;
+	}
+
+	.widget-left .btn-success-light {
+	    right: 23px;
+	}
+
+	.cover .pr-30 {
+		padding-right: 15px !important;
+	}
+
+	.cover .pl-30 {
+		padding-left: 15px !important;
+	}
+
+	.cover .border-left {
+		border-left: 0px !important;
+	}
+
+	.cover .serach-form .form-group {
+		margin-top: 10px;
+	}
+
+	.main-footer .logo-footer {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.main-footer  .contact {
+		margin-bottom: 30px;
+	}
+
+	.main-footer .newsletters {
+		margin-top: 30px;
+	    padding-left: 15px;
+	}
+
+	.footer-bottom .navbar-nav {
+		width: 100%;
+	}
+
+	.footer-bottom .navbar-nav .nav-link {
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.footer-bottom .navbar img {
+		max-width: 100%;
+	}
+
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
