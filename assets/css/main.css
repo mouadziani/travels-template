@@ -59,13 +59,14 @@
 	font-size: 14px;
 	border-radius: 10px;
 	border-color: #afafaf;
+	border: 0px; 
 }
 
 .bottom-navbar .form-search .btn {
 	background: #fff;
 	color: #259f58;
 	font-size: 15px;
-	border-radius: 0px 6px 6px 0px;
+	border-radius: 0px 10px 10px 0px;
 	border: none;
 }
 /* End Header */
@@ -554,6 +555,16 @@
 	font-size: 20px;
     line-height: 38px;
 	color: #fff;
+}
+
+.footer-bottom .navbar {
+	background: #239d56 !important;
+	color: #fff;
+}
+
+.footer-bottom .navbar .nav-link {
+	color: #fff !important;
+	margin-right: 40px;
 }
 
 /* End cover */
