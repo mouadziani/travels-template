@@ -210,7 +210,7 @@
 
 .gallery {
 	padding-top: 55px;
-	padding-bottom: 55px;
+	border-bottom: 1px solid #e6e5e4;
 }
 
 .gallery h1 {
@@ -235,6 +235,327 @@
     background: #80ab4e;
     padding: 5px 10px;
 }
+
+.cards-with-image {
+	padding-top: 50px;
+	border-bottom: 1px solid #e6e5e4;
+}
+
+.cards-with-image .card {
+	border-radius: 0px;
+	border-color: #e6e5e4;
+	margin-bottom: 50px;
+}
+
+.cards-with-image .card .card-body {
+	position: relative;		
+	padding: 0px;
+	height: 250px;
+}
+
+.cards-with-image .card .card-body img {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+.cards-with-image .card .card-body .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 100% !important;
+	background: rgba(255, 255, 255, 0.8);
+	color: #636363;
+}
+
+.cards-with-image .card .card-body .description p {
+    font-size: 15px;
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.cards-with-image .card .card-body .description p .fa {
+    color: #26a059;
+}
+
+.cards-with-image .card .card-body .description h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cards-with-image .card .card-footer {
+    background: #fff;
+}
+
+.cards-with-image .card .card-footer .row p {
+    margin-bottom: 0px;
+    color: #636363;
+    font-size: 15px;
+}
+
+.cards-with-image .card .card-footer .row p span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.cards-with-image .card .card-footer .row .btn {
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.widgets {
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+
+.widgets .widget .card {
+	border-radius: 0px;
+}
+
+.widgets .widget .card .card-body {
+	padding: 12px 14px;
+}
+
+.widgets .widget .card .card-body .title h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #646363;
+}
+
+.widgets .widget .card .card-body .title {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: #555454;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+	border-bottom: 1px solid #2125292b;
+}
+
+.widgets .widget .card .card-body .body {
+    color: #555454;
+}
+
+.widgets .widget .card .card-body .body h3 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.widgets .widget .card .card-body .body p {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.widgets .widget .card .card-body .body .feautred p {
+	font-size: 14px;
+	margin-bottom: 2px;
+	text-align: left;
+}
+
+.widgets .widget .card .card-body .body .feautred {
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+.widgets .widget .card .card-body .body .feautred p .fa {
+	color: #26a059;
+}
+
+.widgets .widget .card .card-body .body .btn-success {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.widgets .widget .card .card-body .body .fa {
+	font-size: 14px;
+}
+
+.widgets .widget .card .card-body .body .text-footer {
+	margin-bottom: 0px !important;
+	margin-top: 15px;
+}
+
+.widgets .widget .card .card-body .body .text-footer a {
+	font-weight: bold;
+	color: #249e57;
+}
+
+.widget-left img {
+	width: 100%; 
+	height: 100%;
+	min-height: 310px;
+}
+
+.widget-left .btn-success-light {
+    position: absolute;
+    bottom: 25px;
+    right: 43px;
+    padding: 5px 31px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 30px;
+}
+
+.top-footer {
+	background: #f5f5f5;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+	color: #636363; 
+}
+
+.top-footer h2 {
+    padding-bottom: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2e2d2d;
+}
+
+.top-footer .text-description {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.top-footer .card {
+    background: transparent;
+    border: 0px;
+}
+
+.top-footer .card .card-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #249e57;
+    background: transparent;
+    border: 0px;
+    font-weight: bold;
+}
+
+.top-footer .card .card-body {
+	padding-top: 10px;
+    font-size: 15px;
+    text-align: justify-all;
+}
+
+.main-footer {
+	background: #e8e7e7;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	color: #636363;
+}
+
+.main-footer .logo-meduim {
+	width: 100%; 
+    height: 100%;
+    max-width: 204px;
+    max-height: 176px;
+}
+
+.main-footer h3 {
+    font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.main-footer p {
+    font-size: 15px;
+}
+
+.main-footer .contact-info {
+    margin-top: 30px;
+}
+
+.main-footer .contact-info p {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.main-footer .contact-info span {
+    display: inline-block;
+    border-radius: 60px;
+    color: #fff;
+    background: #249e57;
+	padding: 0.3em 0.5em;
+    margin-right: 6px;
+}
+
+.main-footer .contact-info .fa-phone {
+	padding: 0.3em 0.4em;
+}
+
+.main-footer .contact-info .fa-envelope {
+    padding: 0.3em 0.4em;
+    font-size: 14px;
+}
+
+.main-footer .geleries img {
+    margin-top: 5px;
+}
+
+.main-footer .newsletters p {
+    font-size: 12px;
+}
+
+.main-footer .newsletters {
+    padding-left: 50px;
+}
+
+.main-footer .newsletters .form-control {
+    border: 0px;
+    height: 43px;
+    background: #a3cc68;
+    /*border: 1px solid #939497;*/
+	border-right: 0px;
+}
+
+.main-footer .newsletters .input-group {
+    background: #a3cc68;
+    border-radius: 10px;
+    border: 1px solid #939497;
+}
+
+.main-footer .newsletters .input-group .btn {
+    border: 0px;
+    font-size: 25px;
+    padding: 1px 13px;
+    background: #249e57;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.social-links {
+	margin-top: 20px;
+}
+
+.social-links a {
+	background: #249e57;
+    text-align: center;
+	float: left;
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	margin-right: 7px;
+
+} 
+.social-links a i{
+	font-size: 20px;
+    line-height: 38px;
+	color: #fff;
+}
+
 /* End cover */
 /* Override bs 4 classes */
 .btn-outline-success {
@@ -252,6 +573,7 @@
 
 .btn-success-light {
 	background: #92c352;
+	border-color: #92c352;
 }
 
 .btn:focus, .btn:active,
@@ -287,6 +609,34 @@ input:focus, input:active,
 	border-left: 1px solid #b3b3b3;
 }
 
+.with-icon-right .form-control{
+	font-size: 14px;
+	border-radius: 10px;
+	max-width: 300px;
+	border-color: #e6e5e4;
+	background: #f8f8f8;
+	padding: 15px !important;
+	border-right: 0px;
+}
 
+.with-icon-right .btn {
+    font-size: 14px;
+    color: #92c352;
+    border-color: #e6e5e4;
+	background: #f8f8f8;
+    border-radius: 1px 10px 10px 1px;
+    border-width: 1px 1px 1px 0px !important;
+}
 
+.bg-gray {
+	background: #efeeed !important;
+}
+
+.text-bold {
+	font-weight: bold !important; 
+}
+
+.mt-15 {
+	margin-top: 15px !important;
+}
 /* End Helpers */
