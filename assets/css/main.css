@@ -196,9 +196,45 @@
     text-transform: uppercase;
 }
 
+.main .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease; 
+    border-radius: 30px;
+    border: 2px solid #D6D6D6;
+}
 
+.gallery {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
 
+.gallery h1 {
+	margin-bottom: 55px;
+	font-weight: bold;
+}
 
+.gallery .image-gallery {
+    height: 252px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.gallery .title {
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #80ab4e;
+    padding: 5px 10px;
+}
 /* End cover */
 /* Override bs 4 classes */
 .btn-outline-success {
@@ -228,6 +264,15 @@ input:focus, input:active,
 .ui-datepicker {
 	font-size: 13px !important;
     font-weight: 400 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #259f58;
+    border-color: #5fc6c5;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 20px;
 }
 /* Begin Helpers */
 .pr-30 {
