@@ -102,7 +102,22 @@
 	.footer-bottom .navbar img {
 		max-width: 100%;
 	}
+	
+	.carousel-multiple-rows .carousel-card .carousel-card-description {
+	    text-align: center !important;
+	}
+	
+	.carousel-multiple-rows .carousel-card .carousel-card-description .btn {
+	    width: 100% !important;
+	}
+	
+	.carousel-multiple-rows .swiper-button-next {
+	    display: none;
+	}
 
+	.carousel-multiple-rows .swiper-button-prev {
+	    display: none;
+	}
 
 }
 /* Medium Devices, Desktops */
